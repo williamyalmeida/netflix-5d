@@ -10,10 +10,10 @@ botaoPergunta.addEventListener("click",()=>{
 
     if(perguntaBotao.style.display == "none") {
         perguntaBotao.style.display = "block"
-        imagemPergunta.classList ="imagem-pergunta-rotate"
+        imagemPergunta.id ="imagem-pergunta-rotate"
     } else {
         perguntaBotao.style.display = "none"
-        imagemPergunta.classList ="imagem-pergunta"
+        imagemPergunta.id ="imagem-pergunta"
         
         
     }
